@@ -1,6 +1,6 @@
 # CPR 账号降智检测
 
-[![Release](https://img.shields.io/github/v/release/Victor-Tau/cpr-jzjc)](https://github.com/Victor-Tau/cpr-jzjc/releases/latest)
+[![Release](https://img.shields.io/github/v/release/DNAlec/cpr-jzjc)](https://github.com/DNAlec/cpr-jzjc/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CPR: 3.53.1](https://img.shields.io/badge/CPR-3.53.1-2563eb.svg)](https://github.com/zyycn/codex-proxy-rs)
 
@@ -8,7 +8,7 @@
 
 项目基于 [ModelTrace](https://github.com/xqy2006/ModelTrace) 的数字指纹方法，比较账户实际回答与候选模型的匹配程度。检测、配置和报告均在插件页面完成，发布包内置 Python/NumPy 评分运行时。
 
-**[下载插件](https://github.com/Victor-Tau/cpr-jzjc/releases/latest) · [使用指南](docs/usage.md) · [更新日志](CHANGELOG.md) · [开发与构建](docs/development.md) · [反馈问题](https://github.com/Victor-Tau/cpr-jzjc/issues)**
+**[下载插件](https://github.com/DNAlec/cpr-jzjc/releases/latest) · [使用指南](docs/usage.md) · [更新日志](CHANGELOG.md) · [开发与构建](docs/development.md) · [反馈问题](https://github.com/Victor-Tau/cpr-jzjc/issues)**
 
 ## 功能
 
@@ -54,7 +54,7 @@
 
 ### 首次安装
 
-1. 从 [Releases](https://github.com/Victor-Tau/cpr-jzjc/releases/latest) 选择与宿主架构匹配的安装包：x86_64 对应 `*-x86_64-unknown-linux-gnu.tar.gz`，ARM64 对应 `*-aarch64-unknown-linux-gnu.tar.gz`，可同时下载 `.sha256` 校验文件。
+1. 从 [Releases](https://github.com/DNAlec/cpr-jzjc/releases/latest) 选择与宿主架构匹配的安装包：x86_64 对应 `*-x86_64-unknown-linux-gnu.tar.gz`，ARM64 对应 `*-aarch64-unknown-linux-gnu.tar.gz`，可同时下载 `.sha256` 校验文件。
 2. 在 CPR 中打开「插件管理 → 安装插件 → 上传包」，上传下载的安装包并启用。
 3. 打开「账号降智检测 → 参数配置」，选择已有计量 Key，确认请求模型及判定规则，点击「保存全部参数」。
 4. 回到「账户检测」，先选择一个账户执行检测，在报告中查看结果，再按需启用批量检测或定时检查。
